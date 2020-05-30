@@ -100,12 +100,6 @@ a = model.fit(X,y_cat, epochs=200)
 # In[15]:
 
 
-a = model.fit(X,y_cat, epochs=200)
-
-
-# In[16]:
-
-
 acc = a.history["accuracy"]
 
 
